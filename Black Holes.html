@@ -1,0 +1,96 @@
+<html>
+<head>
+    <meta charset="UTF8">
+    <title>Practical 4, 5, 6</title>
+    <link rel="stylesheet" href="BH.css">
+    <script>
+      window.MathJax = {
+      tex: {
+          inlineMath: [['$', '$']],
+           }
+       };
+    </script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+</head>
+<body>
+    <video muted autoplay loop class="BHvid"><source src="BH.mp4" type="video/mp4"></video>
+    <div class="main">
+        <h1>Black Holes:<br> A Brief Journey Through Time and Space</h1><br>
+        <p class="desc1">From <i>Einstein’s</i> bold predictions to <i>Hawking’s</i> revolutionary theories — exploring the vast realm of groundbreaking ideas that shape our view of the <i>universe</i> and the <i>cosmos</i>.</p>
+    </div>
+    <hr>
+    <div class="audio">
+        <center><p>Lazy to read? Listen to this audio version!</p></center>
+        <center><audio preload controls><source src="BH.mp3" type="audio/mpeg"></audio></center>
+    </div>
+    <div class="intro">
+        <dl>
+            <dt>What is a Black Hole?</dt>
+            <dd>A black hole, first predicted by the general theory of relativity given by <b><a href="https://en.m.wikipedia.org/wiki/Albert_Einstein">Einstein<sup>1</sup></a></b>, is a region of space-time bounded by a closed surface called the <b><a href="https://en.m.wikipedia.org/wiki/Event_horizon">event horizon<sup>2</sup></a></b>, where the mass-energy concentration is so high that nothing can escape its gravity.<br><br>
+        If mass-energy is contracted within the horizon, it continues to collapse indefinitely until everything is reduced to a mathematical point at the center, with infinite density, called the <b><a href="https://en.m.wikipedia.org/wiki/Gravitational_singularity">singularity<sup>3</sup></a></b></dd><br><br><br>
+            
+            <dt>Who did the Math?</dt>
+            <dd>In 1915, Einstein published his work on the General Theory of Relativity. In his paper, he presented a set of ten coupled equations, known as the <b><a href="https://en.m.wikipedia.org/wiki/Einstein_field_equations">Einstein Field Equations<sup>4</sup></a></b>.<br><br>
+        In Germany, one of the renowned astrophysicists of the time, <b><a href="https://en.m.wikipedia.org/wiki/Karl_Schwarzschild">Karl Schwarzschild<sup>5</sup></a></b>, solved these equations during World War I and presented what we now know as the <b><a href="https://en.m.wikipedia.org/wiki/Schwarzschild_metric">Schwarzschild Metric<sup>6</sup></a></b>. This describes the gravitational field outside a spherical mass, assuming that the angular momentum, electrical charge of the mass, and the universal cosmological constant are all equal to zero.<br>
+        <p>\[
+  ds^2 = -\left(1 - \frac{2GM}{rc^2}\right)c^2\,dt^2 + \left(1 - \frac{2GM}{rc^2}\right)^{-1}dr^2 + r^2\,d\theta^2 + r^2\sin^2\theta\,d\phi^2
+\]</p><br>
+             Although this equation was not originally intended for black holes (nobody knew they existed at the time), it helped other physicists discover them. Such a black whole with $L=Q=0$ is called a <i>static black hole</i> or <i>Schwarzschild black hole</i>.</dd><br><br><br>
+            
+            <dt>The Event Horizon</dt>
+            <dd> So, where exactly is the event horizon? It lies at a specific distance from the singularity, known as the <b><a href="https://en.m.wikipedia.org/wiki/Schwarzschild_radius">Schwarzschild radius<sup>7</sup></a></b>. It is given by:<br>
+            <p>
+                \[
+                  R_s = \frac{2GM_{BH}}{c^2}
+                \]
+            </p><br>
+            The formula can also be derived using the escape velocity formula:    \[
+              V_{esc}= \sqrt{\frac{2GM}{R}}
+            \]
+            by setting $V_{esc}=c$.<br><br>
+            Even a grain of sand will turn into a black hole if compressed such that all its mass-energy is confined within its corresponding event horizon. However, such conditions existed only at the origin of the universe.</dd><br><br><br>
+            
+            <dt>How are they formed?</dt>
+            <dd> We saw that black holes are formed when all the mass-energy of an object is confined within its corresponding event horizon. But where in the universe can this actually happen? Yes, such conditions are created only in specific scenarios — for instance, in a dying star!<br><br>
+        When a star forms, its core is made up of hydrogen. Due to high pressure and temperature, hydrogen nuclei fuse to form helium. This nuclear fusion process fuels the star. Helium then forms carbon, carbon forms neon, neon forms oxygen, and so on — until we reach iron. Iron, however, absorbs energy during both fusion and fission, providing no energy to support the star.<br><br>
+        The star’s own gravity pulls inward, and with no more fusion reactions to counteract it, the star begins to collapse. But this isn't the end — let’s find out what happens next.<br><br>
+            <center><img class="pressure" src="pressure.png"></center>
+            </dd><br><br><br>
+            <dt>The Electron Degeneracy Pressure</dt>
+            <dd>The super high temperatures of the core result in the formation of plasma, where electrons are no longer bound to nuclei. Here, we consider the <b><a href="https://en.m.wikipedia.org/wiki/Pauli_exclusion_principle">Pauli Exclusion Principle<sup>8</sup></a></b>, which states that no two identical fermions can occupy the same quantum state simultaneously. Which means $\psi_1\neq\psi_2$ and thus, they form their own 'little rooms'.<br><br>
+            <center><img class="fermi" src="fermions.png"></center><br><br>
+            According to the <b><a href="https://en.m.wikipedia.org/wiki/Uncertainty_principle">Heisenberg's Uncertainity Principle<sup>9</sup></a></b>:
+            \[
+              \Delta x\Delta p_x\geq\frac{\hbar}{2}
+            \]<br>
+            As the uncertainity in the position, $\Delta x$, decreases, the uncertainity in the momentum, $\Delta p_x$, increases. So, as the star contracts, electrons occupy higher momentum states. While we can't know an individual electron’s momentum precisely, we can describe its momentum distribution.<br><br>
+        This intrinsic momentum creates a quantum mechanical pressure known as <b><a href="https://en.m.wikipedia.org/wiki/Electron_degeneracy_pressure">electron degeneracy pressure (EDP)<sup>10</sup></a></b>, which opposes further compression. This leads to the formation of a <b><a href="https://en.m.wikipedia.org/wiki/White_dwarf">white dwarf<sup>11</sup></a></b> instead of a black hole.
+            </dd><br><br><br>
+            
+            <dt>The Chandrasekhar and TOV limits</dt>
+            <dd>n 1930, <b><a href="https://en.m.wikipedia.org/wiki/Subrahmanyan_Chandrasekhar">Subrahmanyan Chandrasekhar<sup>12</sup></a></b> realized that EDP has a limit. If the core remnant mass (the mass left behind after a supernova) is greater than <b>1.4 $M_{\odot}$</b>, EDP cannot prevent collapse. This is the <b><a href="https://en.m.wikipedia.org/wiki/Chandrasekhar_limit">Chandrasekhar Limit<sup>13</sup></a></b>. Stars with initial mass less than about <b>8$M_{\odot}$</b> have core remnants below this limit and form white dwarfs.<br><br>
+        For more massive stars, the core collapses further. Protons and electrons combine into neutrons and neutrinos via a process known as <b><a href="https://en.m.wikipedia.org/wiki/Beta_decay">beta-plus decay<sup>14</sup></a></b>. The resulting <b><a href="https://en.m.wikipedia.org/wiki/Neutron_star">neutron degeneracy pressure (NDP)<sup>15</sup></a></b> can halt the collapse — up to a point.<br><br>
+        In 1939, <b><a href="https://en.m.wikipedia.org/wiki/J._Robert_Oppenheimer">J. Robert Oppenheimer<sup>16</sup></a></b>, <b><a href="https://en.m.wikipedia.org/wiki/George_Volkoff">George Volkoff<sup>17</sup></a></b>, and <b><a href="https://en.m.wikipedia.org/wiki/Richard_C._Tolman">Richard C. Tolman<sup>18</sup></a></b> proposed that if the core remnant mass exceeds about <b>3$M_{\odot}$</b>, even NDP cannot prevent collapse. This is the <b><a href="https://en.m.wikipedia.org/wiki/Tolman%E2%80%93Oppenheimer%E2%80%93Volkoff_limit">Tolman-Oppenheimer-Volkoff (TOV) Limit<sup>19</sup></a></b>. Such a star will collapse into a <b><a href="https://en.m.wikipedia.org/wiki/Stellar_black_hole">stellar-mass black hole<sup>20</sup></a></b>.
+            </dd><br><br><br>
+            
+            <dt>Summary</dt>
+            <dd><ul>
+            <li>If a star has an initial mass less than ~8 $M_{\odot}$, it will not undergo supernova and ends as a white dwarf.</li>
+            <li>Massive stars (initial mass > ~8 $M_{\odot}$) undergo supernova. If the core remnant mass lies between the Chandrasekhar and TOV limits, a <b>neutron star</b> forms.</li>
+            <li>If the core remnant mass exceeds the TOV limit, the remnant collapses into a <b>stellar-mass black hole</b>.</li>
+        </ul>
+            <div class="astarimg">
+                <center><h3>Sagittarius A*</h3></center>
+                <center><img class="astar" src="A-star.jpg"></center>
+                <center><p>A supermassive black hole situated at the center of the Milky Way.<br>
+                Image captured by Event Horizon Telescope(EHT), 2022.</p></center>
+            </div>        
+            </dd>
+        </dl>  
+    </div>
+</body>
+
+</html>

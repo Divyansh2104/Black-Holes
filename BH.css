@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("BH.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.main{
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 145%;
+    position: relative;
+}    
+
+h1{
+    font-family: 'Inter', sans-serif;
+    margin-top: 3%;
+    margin-left: 2%;
+    position: absolute;
+    font-size: 30px;
+    font-weight: 800; 
+    width: 50%;  
+}
+
+.desc1{
+    font-family: 'Inter', sans-serif;
+    margin-top: 15%;
+    margin-left: 2%;
+    font-size: 20px;
+    font-weight: 500;
+    width: 40%;
+}
+
+.BHvid{
+    width: 100.13%;
+    position: absolute;
+}
+
+hr{
+    height: 2px;
+    width: 100%;
+    background: #fff;
+}
+
+.audio p{
+    font-family: 'Inter', sans-serif;
+    margin-top: 2%;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.audio audio{
+    margin-top: 2%;
+    width: 60%;
+    height: 50px;
+}
+
+.intro{
+    width: 96%;
+    margin-top: 4%;
+    position: relative;
+    margin-left: 2%;
+}
+
+.intro a{
+    color: #fff;
+    text-decoration: none;
+    transition: ease 0.5s;
+}
+
+.intro a:hover{
+    color: #ff6500;
+}
+
+dt{
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    margin-bottom: 1%;
+}
+
+dd{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: justify;
+}
+
+dd b{
+    font-weight: 800;
+}
+
+.intro li{
+    margin: 1%;
+}
+
+.pressure{
+    height: 250px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
+
+.fermi{
+    height: 250px;
+}
+
+.astarimg{
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.astarimg h3{
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.astarimg p{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.astar{
+    height: 500px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    margin: 2%;
+}
+
+
+
